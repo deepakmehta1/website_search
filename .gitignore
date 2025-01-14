@@ -1,0 +1,100 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.whl
+*.deb
+*.rpm
+
+# mypy
+.mypy_cache/
+
+# pytest
+.cache/
+
+# coverage reports
+*.cover
+*.coverage
+*.hypothesis/
+.coverage.*
+nosetests.xml
+coverage.xml
+*.log
+
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# poetry
+poetry.lock
+pyproject.toml
+
+# pipenv
+Pipfile.lock
+
+# pipenv/virtualenv
+Pipfile
+*.pyc
+__pycache__/
+env/
+.venv/
+venv/
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+**/docker-compose.override.yml
+.docker/
+docker-compose.override.yml
+
+# other
+*.bak
+*.swp
+*.swo
+
+# Secrets
+*.env
+.env.*
